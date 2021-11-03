@@ -118,7 +118,7 @@ This is a Starter Angular Progressive Web Application (PWA) that uses AWS AppSyn
 
 ### Deploy with CloudFormation
 
-1. Deploy the included Cloudformation template to launch a stack that will create an IAM Service Role, DynamoDB tables, an AppSync API, a GraphQL schema, Data Sources, and Resolvers.
+1. Deploy the included Cloudformation template to launch a stack that will create anIAM Service Role, DynamoDB tables, an AppSync API, a GraphQL schema, Data Sources, and Resolvers.
 
     ```bash
     $ aws cloudformation create-stack --stack-name ChatQL --template-body file://backend/deploy-cfn.yml --parameters ParameterKey=userPoolId,ParameterValue=<AWS_USER_POOLS_ID> --capabilities CAPABILITY_IAM --region <YOUR_REGION>
